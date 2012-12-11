@@ -34,3 +34,10 @@ rm -rf %{buildroot}
 %defattr (-,root,root)
 %{_bindir}/*
 %{py_puresitedir}/tegaki*
+
+
+%changelog
+* Wed Nov 03 2010 Funda Wang <fwang@mandriva.org> 0.3.1-1mdv2011.0
++ Revision: 592784
+- import tegaki-train
+
